@@ -1,5 +1,6 @@
 """Code for day 11"""
 
+import cProfile
 from collections import deque
 
 
@@ -93,4 +94,4 @@ def main():
 if __name__ == "__main__":
     debug_and_tests()
     print("THE REAL DEAL")
-    main()
+    cProfile.run("main()")
