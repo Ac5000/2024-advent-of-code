@@ -2,9 +2,9 @@
 
 # pylint: disable=logging-fstring-interpolation, too-many-instance-attributes
 
+import logging
 from collections.abc import Callable
 from dataclasses import dataclass, field
-import logging
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(format="%(levelname)s:%(message)s ", level=logging.DEBUG)
